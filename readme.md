@@ -1,6 +1,6 @@
 # Bus
 
-This package provides an implementation of the `Illuminate\Contracts\Bus\Dispatcher` interface that matches the Laravel 5.1.x implementation with seperate commands and handlers.
+This package provides an implementation of the `Illuminate\Contracts\Bus\Dispatcher` interface that matches the Laravel 5.1.x implementation with separate commands and handlers.
 
 ## Installation
 
