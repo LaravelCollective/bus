@@ -1,5 +1,5 @@
 {
-    "name": "collective/bus",
+    "name": "laravelcollective/bus",
     "description": "The Laravel Bus (5.1) package for use in Laravel 5.2.",
     "license": "MIT",
     "homepage": "http://laravelcollective.com",
