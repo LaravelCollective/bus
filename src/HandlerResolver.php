@@ -9,7 +9,8 @@ interface HandlerResolver
     /**
      * Get the handler instance for the given command.
      *
-     * @param  mixed  $command
+     * @param mixed $command
+     *
      * @return mixed
      */
     public function resolveHandler($command);
@@ -17,7 +18,8 @@ interface HandlerResolver
     /**
      * Get the handler class for the given command.
      *
-     * @param  mixed  $command
+     * @param mixed $command
+     *
      * @return string
      */
     public function getHandlerClass($command);
@@ -25,7 +27,8 @@ interface HandlerResolver
     /**
      * Get the handler method for the given command.
      *
-     * @param  mixed  $command
+     * @param mixed $command
+     *
      * @return string
      */
     public function getHandlerMethod($command);
@@ -33,7 +36,8 @@ interface HandlerResolver
     /**
      * Register command to handler mappings.
      *
-     * @param  array  $commands
+     * @param array $commands
+     *
      * @return void
      */
     public function maps(array $commands);
@@ -41,7 +45,8 @@ interface HandlerResolver
     /**
      * Register a fallback mapper callback.
      *
-     * @param  \Closure  $mapper
+     * @param \Closure $mapper
+     *
      * @return void
      */
     public function mapUsing(Closure $mapper);
