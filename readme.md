@@ -1,5 +1,11 @@
 # Bus
 
+[![Build Status](https://travis-ci.org/LaravelCollective/bus.svg)](https://travis-ci.org/LaravelCollective/bus)
+[![Total Downloads](https://poser.pugx.org/LaravelCollective/bus/downloads)](https://packagist.org/packages/laravelcollective/bus)
+[![Latest Stable Version](https://poser.pugx.org/LaravelCollective/bus/v/stable.svg)](https://packagist.org/packages/laravelcollective/bus)
+[![Latest Unstable Version](https://poser.pugx.org/LaravelCollective/bus/v/unstable.svg)](https://packagist.org/packages/laravelcollective/bus)
+[![License](https://poser.pugx.org/LaravelCollective/bus/license.svg)](https://packagist.org/packages/laravelcollective/bus)
+
 This package provides an implementation of the `Illuminate\Contracts\Bus\Dispatcher` interface that matches the Laravel 5.1.x implementation with separate commands and handlers.
 
 ## Installation
