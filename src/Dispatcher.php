@@ -4,9 +4,9 @@ namespace Collective\Bus;
 
 use ArrayAccess;
 use Closure;
+use Collective\Bus\Contracts\SelfHandling;
 use Illuminate\Contracts\Bus\Dispatcher as DispatcherContract;
 use Illuminate\Contracts\Bus\QueueingDispatcher;
-use Collective\Bus\Contracts\SelfHandling;
 use Illuminate\Contracts\Container\Container;
 use Illuminate\Contracts\Queue\Queue;
 use Illuminate\Contracts\Queue\ShouldQueue;
