@@ -121,7 +121,7 @@ class BusDispatcherTestBasicCommand
 {
 }
 
-class BusDispatcherTestArgumentMapping implements Illuminate\Contracts\Bus\SelfHandling
+class BusDispatcherTestArgumentMapping implements Collective\Bus\Contracts\SelfHandling
 {
     public $flag, $emptyString;
 
@@ -137,7 +137,7 @@ class BusDispatcherTestArgumentMapping implements Illuminate\Contracts\Bus\SelfH
     }
 }
 
-class BusDispatcherTestSelfHandlingCommand implements Illuminate\Contracts\Bus\SelfHandling
+class BusDispatcherTestSelfHandlingCommand implements Collective\Bus\Contracts\SelfHandling
 {
     public $firstName, $lastName;
 

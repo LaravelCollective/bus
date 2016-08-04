@@ -8,3 +8,5 @@ This package provides an implementation of the `Illuminate\Contracts\Bus\Dispatc
 - Add `Collective\Bus\BusServiceProvider` to your `app.php` configuration file.
 
 If you are type-hinting `Illuminate\Bus\Dispatcher`, you should now type-hint `Collective\Bus\Dispatcher`.
+
+If upgrading from 5.2, you should use `Collective\Bus\Contracts\SelfHandling` instead of `Illuminate\Contracts\Bus\SelfHandling` to indicate that a command does not use a separate handler class.
