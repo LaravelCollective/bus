@@ -189,11 +189,11 @@ class Dispatcher implements DispatcherContract, QueueingDispatcher, HandlerResol
      * Dispatch a command to its appropriate handler in the current process.
      *
      * @param mixed         $command
-     * @param mixed $afterResolving
+     * @param \Closure|null $afterResolving
      *
      * @return mixed
      */
-    public function dispatchNow($command, $afterResolving = null)
+    public function dispatchNow($command, Closure $afterResolving = null)
     {
         return $this->pipeline->send($command)->through($this->pipes)->then(function ($command) use ($afterResolving) {
             if ($command instanceof SelfHandling) {
